@@ -1,0 +1,19 @@
+verificationID;verificationName;verificatonMethod;verificationParameter;verificationParameterType
+V12;Anleitungspruefung;;;
+V18;Audit nach VDA12;;;
+V11;Be- und Entladetest;;;
+V17;Bedienerschulung;;;
+V6;Belastung_pro_Lagerstaender;Test;23.5;kg
+V8;Einlagerungswinkel_Herzsche_Pressung;Simulation;58.0;Grad
+V1;Entmagnetisierungstest;Test;;
+V4;GewichtsprÅfung_Rotor;Test;49.0;kg
+V15;Inbetriebnahme_Protokollpruefung;;;
+V3;MaterialprÅfung;Test;;V2A
+V14;Montage_Hersteller_Pruefung;;;
+V7;PressprÅfung;Test;480.0;Pa
+V9;Ruestzeitmessung;;;
+V13;Schichtbetriebabnahme;;;
+V16;Schulungsprotokoll_Bediener;;;
+V2;Sperrzonentest;Simulation;;
+V5;Variation Zapfengrî·e;Messung;90.0;mm
+V10;Werkzeugfreie RÅstpruefung;;;

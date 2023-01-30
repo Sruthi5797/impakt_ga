@@ -1,0 +1,1611 @@
+
+ {
+  "Data":{
+    "Shape": [
+      {
+        "name": "The WP shall consider the ESA space ontology",
+        "uid": "_19_0_4_41e01a1_1643537634669_305711_45510",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "Since ESA is a customer / partner of the major involved COOPERANTS partners, it makes sense to address their use cases. COOPERANTS is be expected to be used in this context\n",
+        "id": "115"
+      },
+      {
+        "name": "The WP shall only consider the applications of Airbus and DLR",
+        "uid": "_19_0_4_41e01a1_1643537696293_804559_45518",
+        "depth": 0,
+        "uml-type": "Extended Requirement",
+        "Text": "Scope Limitation: We will only consider the use cases of the current 4.2.1 partners, driven by Airbus and DLR in order to have scope maangement\n",
+        "id": "88"
+      },
+      {
+        "name": "The WP shall not need to accept requirements for other applications than the ones discussed in the TVB",
+        "uid": "_19_0_4_41e01a1_1643537723843_338008_45525",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "89"
+      },
+      {
+        "name": "The WP shall emphasize an implementation that is license free / open source for the duration of the project",
+        "uid": "_19_0_4_41e01a1_1643538103071_419394_45534",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "90"
+      },
+      {
+        "name": "The WP shall exclude functionality that is only available in commercial versions of the used software (for the duration of the project), such as sharding, replication etc.",
+        "uid": "_19_0_4_41e01a1_1643538131996_207643_45541",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "91"
+      },
+      {
+        "name": "The WP may build mockups / alternatives for functionality availablity in the commercial versions of used software, but which is required for demonstration (e.g. authorization)",
+        "uid": "_19_0_4_41e01a1_1643538212061_16292_45548",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "92"
+      },
+      {
+        "name": "The WP SHALL choose a set of budget calculations for demonstration",
+        "uid": "_19_0_4_41e01a1_1648047244061_200607_51464",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "Show that budget calculation works for e.g. for mass / power, this implies other budgets will work, too\n",
+        "id": "110"
+      },
+      {
+        "name": "",
+        "uid": "_19_0_4_41e01a1_1654004318215_410192_52547",
+        "depth": 0,
+        "uml-type": "Extended Requirement",
+        "Text": "",
+        "id": "116"
+      },
+      {
+        "name": "",
+        "uid": "_19_0_4_41e01a1_1654004404046_523972_52554",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "117"
+      },
+      {
+        "name": "The system SHALL provide an API to raw data",
+        "uid": "_19_0_4_41e01a1_1643360698413_439573_42814",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "7"
+      },
+      {
+        "name": "The system SHALL provide an API to semantic data that follows the meta-model or onotology",
+        "uid": "_19_0_4_41e01a1_1643360712955_758956_42821",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "8"
+      },
+      {
+        "name": "The system SHALL store data that is structured (as in elements, relations, such as SysML / UML)",
+        "uid": "_19_0_4_41e01a1_1643360254537_625272_42768",
+        "depth": 0,
+        "uml-type": "Functional Requirement",
+        "id": "1"
+      },
+      {
+        "name": "The system SHALL store elements that have properties (such as class instance descriptions)",
+        "uid": "_19_0_4_41e01a1_1643360339259_70373_42784",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "id": "3"
+      },
+      {
+        "name": "The system SHALL allow access only to authorized users",
+        "uid": "_19_0_4_41e01a1_1643360685146_831625_42807",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "6"
+      },
+      {
+        "name": "The system SHALL support a configurable meta-model or ontology",
+        "uid": "_19_0_4_41e01a1_1643360659770_347729_42800",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "5"
+      },
+      {
+        "name": "The system SHALL validate the content of the repository according to a meta-model or ontology",
+        "uid": "_19_0_4_41e01a1_1643360605398_404076_42791",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "4"
+      },
+      {
+        "name": "The system SHALL support the definition of dynamic types / category",
+        "uid": "_19_0_4_41e01a1_1643361012088_111581_43155",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "11"
+      },
+      {
+        "name": "The system SHALL support the assignment of more than one class / category to modelled elements",
+        "uid": "_19_0_4_41e01a1_1643361063867_207514_43162",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "12"
+      },
+      {
+        "name": "The system SHALL support the setting of attribute values based on the dynamic class / categoy assignments",
+        "uid": "_19_0_4_41e01a1_1643361091712_702213_43169",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "13"
+      },
+      {
+        "name": "The system SHALL support reuse of parts of a model in a new derived model",
+        "uid": "_19_0_4_41e01a1_1643361122404_428005_43178",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "14"
+      },
+      {
+        "name": "The system MAY implement the partial reuse as a copy (no live update when source changes)",
+        "uid": "_19_0_4_41e01a1_1643361156932_394316_43185",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "15"
+      },
+      {
+        "name": "The system SHALL support the update of the reused model parts at the place where it is used",
+        "uid": "_19_0_4_41e01a1_1643361187304_538819_43192",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "16"
+      },
+      {
+        "name": "The system SHALL provide a standard internet accessible API",
+        "uid": "_19_0_4_41e01a1_1643362954313_823722_44098",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "22"
+      },
+      {
+        "name": "The system SHALL store data that is graph-based",
+        "uid": "_19_0_4_41e01a1_1643363240214_453616_44109",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "23"
+      },
+      {
+        "name": "The system SHALL be based on an open license (for the duration of the project)",
+        "uid": "_19_0_4_41e01a1_1643363380846_358390_44181",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "24"
+      },
+      {
+        "name": "The system SHALL support time-based queries for time series databases",
+        "uid": "_19_0_4_41e01a1_1643363643709_895138_44213",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "28"
+      },
+      {
+        "name": "The system SHALL provide the version of the used meta-model",
+        "uid": "_19_0_4_41e01a1_1643363762052_109569_44220",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "29"
+      },
+      {
+        "name": "The system SHALL provide element properties with multiplicities",
+        "uid": "_19_0_4_41e01a1_1643363819031_625072_44227",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "30"
+      },
+      {
+        "name": "The system SHALL provide element properties that are structured",
+        "uid": "_19_0_4_41e01a1_1643363832168_438067_44234",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "31"
+      },
+      {
+        "name": "The system SHALL support queries based on property values",
+        "uid": "_19_0_4_41e01a1_1643363872041_59909_44241",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "32"
+      },
+      {
+        "name": "The system SHALL support a datamodel with inheritance",
+        "uid": "_19_0_4_41e01a1_1643387913395_866319_43089",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "42"
+      },
+      {
+        "name": "The system SHALL support retrieval of elements based on type information",
+        "uid": "_19_0_4_41e01a1_1643387934897_713991_43096",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "43"
+      },
+      {
+        "name": "The system SHALL support the unique identification of elements through unique identifiers",
+        "uid": "_19_0_4_41e01a1_1643388698251_113659_43272",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "44"
+      },
+      {
+        "name": "The system SHALL support the identification of the version of an object through version identifiers.",
+        "uid": "_19_0_4_41e01a1_1643388725435_382401_43280",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "45"
+      },
+      {
+        "name": "The system MAY to only hold one version of an element per scope.",
+        "uid": "_19_0_4_41e01a1_1643388793194_219570_43287",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "46"
+      },
+      {
+        "name": "The system SHALL use unique identifiers for references and relationships",
+        "uid": "_19_0_4_41e01a1_1643388827626_112308_43294",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "47"
+      },
+      {
+        "name": "The system MAY have elements with the same unique identifier in different scopes",
+        "uid": "_19_0_4_41e01a1_1643388864918_552652_43301",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "48"
+      },
+      {
+        "name": "If the system has elements with the same unique identifier in different scopes, the system SHALL consider these copies of the same element (although possibly in different versions)",
+        "uid": "_19_0_4_41e01a1_1643388920594_845975_43308",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "49"
+      },
+      {
+        "name": "The system SHALL support relationships based on the unique identifiers",
+        "uid": "_19_0_4_41e01a1_1643363594191_704044_44199",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "26"
+      },
+      {
+        "name": "The system SHALL support globally unique identifiers that are eternally unique",
+        "uid": "_19_0_4_41e01a1_1643363557061_617729_44192",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "25"
+      },
+      {
+        "name": "The system SHALL support retrieval of elements based on the unique identifiers",
+        "uid": "_19_0_4_41e01a1_1643363606514_242274_44206",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "27"
+      },
+      {
+        "name": "A scope is defined as the set of elements that can reference (\"see\") each other.",
+        "uid": "_19_0_4_41e01a1_1643389026737_770771_43478",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "50"
+      },
+      {
+        "name": "The system SHALL support different scopes base on the same meta-model",
+        "uid": "_19_0_4_41e01a1_1643389048417_541694_43486",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "51"
+      },
+      {
+        "name": "The system SHALL support the creation of a scope based on collections of elements from one or more other scopes",
+        "uid": "_19_0_4_41e01a1_1643389079214_89182_43493",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "52"
+      },
+      {
+        "name": "The system SHALL support copying of elements from one scope to another",
+        "uid": "_19_0_4_41e01a1_1643389115861_25837_43500",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "53"
+      },
+      {
+        "name": "The system SHALL support updating of elements that have been copied from one scope to another by a following copy update",
+        "uid": "_19_0_4_41e01a1_1643389133328_238149_43507",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "54"
+      },
+      {
+        "name": "The system SHALL keep the same unique id when copying objects from one scope to another",
+        "uid": "_19_0_4_41e01a1_1643389163286_641847_43514",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "55"
+      },
+      {
+        "name": "The system SHALL ensure uniqueness of unique identifiers within a scope",
+        "uid": "_19_0_4_41e01a1_1643389192905_399738_43521",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "56"
+      },
+      {
+        "name": "The system SHALL support a hierarchic scope system. Elements in a higher scope can see elements of the sub-scopes, but these cannot see each other",
+        "uid": "_19_0_4_41e01a1_1643389553787_461065_43756",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "65"
+      },
+      {
+        "name": "The system SHALL support an API for retrieval of all elements that are within another elements scope.",
+        "uid": "_19_0_4_41e01a1_1643389709147_329433_43763",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "66"
+      },
+      {
+        "name": "The system SHALL support the grouping of arbitrary data to a collection of data sets",
+        "uid": "_19_0_4_41e01a1_1643389317118_212335_43697",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "57"
+      },
+      {
+        "name": "The system SHALL support the definition of data set types.",
+        "uid": "_19_0_4_41e01a1_1643389343742_474558_43705",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "58"
+      },
+      {
+        "name": "Data set types SHALL define the types of elements and relationships that can be contained in data sets of that types.",
+        "uid": "_19_0_4_41e01a1_1643389365383_955972_43712",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "59"
+      },
+      {
+        "name": "The system SHALL enforce validation of conformance of a data set to its type",
+        "uid": "_19_0_4_41e01a1_1643389390403_150911_43719",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "60"
+      },
+      {
+        "name": "The system MUST NOT consider data set inclusion as a type of containment",
+        "uid": "_19_0_4_41e01a1_1643389416023_215506_43728",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "61"
+      },
+      {
+        "name": "The system SHALL support the creation of a copy of a data set",
+        "uid": "_19_0_4_41e01a1_1643389450531_667253_43735",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "62"
+      },
+      {
+        "name": "The system SHALL provide a mechanism for possibly including required related elements in a data set automatically",
+        "uid": "_19_0_4_41e01a1_1643389482233_218436_43742",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "63"
+      },
+      {
+        "name": "The system SHALL support write / change protection for data sets",
+        "uid": "_19_0_4_41e01a1_1643389513183_469149_43749",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "64"
+      },
+      {
+        "name": "The system SHALL provide queries based on relationships between elements.",
+        "uid": "_19_0_4_41e01a1_1643390745869_542259_44249",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "68"
+      },
+      {
+        "name": "The system SHALL provide a mechanism for the registration of derived models that are optimized for specific use cases (NLP, network, etc.)",
+        "uid": "_19_0_4_41e01a1_1643361233719_693214_43199",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "17"
+      },
+      {
+        "name": "The system SHALL support the derivation of data optimized for NLP",
+        "uid": "_19_0_4_41e01a1_1643361852315_97203_43400",
+        "depth": 1,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "18"
+      },
+      {
+        "name": "The system SHALL support the deriviation of data optimized for graph analysis",
+        "uid": "_19_0_4_41e01a1_1643361897288_846653_43408",
+        "depth": 1,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "19"
+      },
+      {
+        "name": "The system SHALL support the derivation of data optimized for time series analysis",
+        "uid": "_19_0_4_41e01a1_1643361911147_116181_43415",
+        "depth": 1,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "20"
+      },
+      {
+        "name": "The system SHALL provide an API integration for the access to the derived models",
+        "uid": "_19_0_4_41e01a1_1643361999531_862380_43578",
+        "depth": 1,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "21"
+      },
+      {
+        "name": "The system SHALL provide a mechanism for the traceability from source models to derived models and back",
+        "uid": "_19_0_4_41e01a1_1643452641339_721591_45729",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "71"
+      },
+      {
+        "name": "The system SHALL provide a mechanism for the integration of the concept of derived models into the concept of scopes and data sets",
+        "uid": "_19_0_4_41e01a1_1643452684185_837106_45739",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "72"
+      },
+      {
+        "name": "The system SHALL support a framework for transformers between metamodel versions",
+        "uid": "_19_0_4_41e01a1_1643390409676_828298_44181",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "67"
+      },
+      {
+        "name": "The system SHALL provide compare functionality for graph data",
+        "uid": "_19_0_4_41e01a1_1643365187620_488768_45010",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "38"
+      },
+      {
+        "name": "The system SHALL provide compare functionality for time series data",
+        "uid": "_19_0_4_41e01a1_1643365200472_580602_45017",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "39"
+      },
+      {
+        "name": "The system SHALL provide compare functionalty for element data",
+        "uid": "_19_0_4_41e01a1_1643365176608_962636_45003",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "37"
+      },
+      {
+        "name": "The system SHALL provide access to a history list of changes",
+        "uid": "_19_0_4_41e01a1_1643365211177_533182_45024",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "40"
+      },
+      {
+        "name": "The system SHALL store various versions of an object",
+        "uid": "_19_0_4_41e01a1_1658523759246_421817_51570",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "148"
+      },
+      {
+        "name": "The system SHALL allow the update / change of the meta-model",
+        "uid": "_19_0_4_41e01a1_1658781023874_944837_52017",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "152"
+      },
+      {
+        "name": "The system SHALL support read access by more than one user",
+        "uid": "_19_0_4_41e01a1_1658826564602_271431_52844",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "154"
+      },
+      {
+        "name": "The system SHALL support editing / write access by more than one user at a time",
+        "uid": "_19_0_4_41e01a1_1658826590429_67594_52854",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "155"
+      },
+      {
+        "name": "The system SHALL detect conflicting changes when written by multiple users",
+        "uid": "_19_0_4_41e01a1_1658826616164_116897_52863",
+        "depth": 1,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "156"
+      },
+      {
+        "name": "The system SHALL support authorization / access to parts of the data",
+        "uid": "_19_0_4_41e01a1_1658846375442_202398_52144",
+        "depth": 1,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "158"
+      },
+      {
+        "name": "The system SHALL support access rights based on roles and groups",
+        "uid": "_19_0_4_41e01a1_1659014423498_282523_52142",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "160"
+      },
+      {
+        "name": "The system SHALL support integration into GAIA-X platform",
+        "uid": "_19_0_4_41e01a1_1643365359345_788849_45177",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "41"
+      },
+      {
+        "name": "The system SHALL support authorization based on GAIA-X standards",
+        "uid": "_19_0_4_41e01a1_1665841129628_41343_52619",
+        "depth": 1,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "172"
+      },
+      {
+        "name": "The system SHALL support authentication based on GAIA-X standards",
+        "uid": "_19_0_4_41e01a1_1665841148218_985899_52626",
+        "depth": 1,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "173"
+      },
+      {
+        "name": "The system SHALL generate the data store configuation based on an ontology",
+        "uid": "_19_0_4_41e01a1_1643360909736_78682_42976",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT1"
+      },
+      {
+        "name": "The ontology SHALL support generation of the infrastructure backend",
+        "uid": "_19_0_4_41e01a1_1647266673934_708143_49898",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT3"
+      },
+      {
+        "name": "The system SHALL support generation from an UML model",
+        "uid": "_19_0_4_41e01a1_1653915584726_873695_50897",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "114"
+      },
+      {
+        "name": "The system shall generator JSON for configuration",
+        "uid": "_19_0_4_41e01a1_1654765511478_973852_52070",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "119"
+      },
+      {
+        "name": "The system shall the generation of complex text files",
+        "uid": "_19_0_4_41e01a1_1654765870682_646865_52350",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "120"
+      },
+      {
+        "name": "The system SHALL support generation from an ecore  model",
+        "uid": "_19_0_4_41e01a1_1654766057857_920309_52515",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "114"
+      },
+      {
+        "name": "The system SHALL support the storage of requirements",
+        "uid": "_19_0_4_41e01a1_1643364391218_880089_44972",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "33"
+      },
+      {
+        "name": "The system SHALL support the storage of traceability information",
+        "uid": "_19_0_4_41e01a1_1643364406072_69486_44980",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "34"
+      },
+      {
+        "name": "The system SHALL support the analysis of traceability links",
+        "uid": "_19_0_4_41e01a1_1643364416928_916247_44987",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "35"
+      },
+      {
+        "name": "The system SHALL provide a mechanism to annotate elements with review comments",
+        "uid": "_19_0_4_41e01a1_1643364686364_868592_44996",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "36"
+      },
+      {
+        "name": "The system SHALL support the storage of CAD data",
+        "uid": "_19_0_4_41e01a1_1643392764291_85538_45548",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "69"
+      },
+      {
+        "name": "The system SHALL support the storage of arbitrary document data",
+        "uid": "_19_0_4_41e01a1_1643392781294_987676_45555",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "70"
+      },
+      {
+        "name": "Thhe system SHALL provide collaborative semantic engineering",
+        "uid": "_19_0_4_41e01a1_1643654896388_892639_44518",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "93"
+      },
+      {
+        "name": "The system SHALL run on a loyalty free operating system",
+        "uid": "_19_0_4_41e01a1_1643454968602_284282_46656",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "81"
+      },
+      {
+        "name": "The system SHALL be able to run in a containerized environment",
+        "uid": "_19_0_4_41e01a1_1643454990800_531906_46681",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "82"
+      },
+      {
+        "name": "The system SHALL provide a mechanism to create classes in a programming language from the meta model definition",
+        "uid": "_19_0_4_41e01a1_1643453710467_96847_46119",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "73"
+      },
+      {
+        "name": "The system SHALL provide a mechanism to load the classes from the service API ",
+        "uid": "_19_0_4_41e01a1_1643453732946_541968_46127",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "74"
+      },
+      {
+        "name": "The system SHALL provide a mechanism to store the object model via the service API",
+        "uid": "_19_0_4_41e01a1_1643453761406_208617_46134",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "75"
+      },
+      {
+        "name": "The system SHALL provide a mechanism for the object model to load references lazily",
+        "uid": "_19_0_4_41e01a1_1643453784636_683361_46141",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "76"
+      },
+      {
+        "name": "The system SHALL provide a mechanism for the loading mechanism to fetch bulk date (i.e. data for than more than one object) in order to improve performance",
+        "uid": "_19_0_4_41e01a1_1643453803417_233667_46148",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "77"
+      },
+      {
+        "name": "The object instance system SHALL use a Java version of at least 11",
+        "uid": "_19_0_4_41e01a1_1643453958117_904422_46474",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "79"
+      },
+      {
+        "name": "The system SHALL use a Python version \u003e\u003d 3.8",
+        "uid": "_19_0_4_41e01a1_1643453928167_999271_46302",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "78"
+      },
+      {
+        "name": "The system SHALL preserve unique ids from the storage mechanism",
+        "uid": "_19_0_4_41e01a1_1643454011740_583886_46501",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "80"
+      },
+      {
+        "name": "The system SHALL be built with established technologies",
+        "uid": "_19_0_4_41e01a1_1654764371947_72524_51327",
+        "depth": 1,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "118"
+      },
+      {
+        "name": "The system SHALL be designed so that it can be easily maintained and extended",
+        "uid": "_19_0_4_41e01a1_1658825300161_796252_52099",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "153"
+      },
+      {
+        "name": "The system SHALL provide means for IP protection",
+        "uid": "_19_0_4_41e01a1_1658846424598_210826_52252",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "159"
+      },
+      {
+        "name": "The system SHALL be based on a microservice architecture",
+        "uid": "_19_0_4_41e01a1_1658833569837_857600_52364",
+        "depth": 1,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "157"
+      },
+      {
+        "name": "The system SHALL store data that is time series based, such as measurement data from production",
+        "uid": "_19_0_4_41e01a1_1643360314159_3556_42777",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "id": "2"
+      },
+      {
+        "name": "The system SHALL store data that is frequency based.",
+        "uid": "_19_0_4_41e01a1_1665645933512_373097_52745",
+        "depth": 1,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "168"
+      },
+      {
+        "name": "The system SHALL support the storage of analysis results",
+        "uid": "_19_0_4_41e01a1_1665646202831_503059_52765",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "170"
+      },
+      {
+        "name": "The system SHALL support an easy storage of the data wo/ changing the configuration of the database",
+        "uid": "_19_0_4_41e01a1_1665646505399_893551_53007",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "171"
+      },
+      {
+        "name": "The system SHALL be able to link the additional data to a given model element ",
+        "uid": "_19_0_4_41e01a1_1665646058331_903195_52758",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "The additional data should be traceable to a specific model element in a specific model.\n",
+        "id": "169"
+      },
+      {
+        "name": "The system SHALL support the storage of additional data that is related to the model",
+        "uid": "_19_0_4_41e01a1_1665645402550_278888_52718",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "167"
+      },
+      {
+        "name": "The evaluation SHALL take the activities of IOF into account",
+        "uid": "_19_0_4_41e01a1_1647267706781_137731_50374",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "101"
+      },
+      {
+        "name": "The evaluation SHALL take the GAIA-X approaches for self-description into account",
+        "uid": "_19_0_4_41e01a1_1647267653626_851483_50342",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "99"
+      },
+      {
+        "name": "The evaluation SHALL take the activities of ESA into account",
+        "uid": "_19_0_4_41e01a1_1647267684067_494779_50367",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "100"
+      },
+      {
+        "name": "The ontology SHALL provide an interface to ESA activities",
+        "uid": "_19_0_4_41e01a1_1647266737798_383011_49912",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT5"
+      },
+      {
+        "name": "The evaluation SHALL be based on a definition of the expected process / use cases",
+        "uid": "_19_0_4_41e01a1_1647339960849_451675_51554",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "102"
+      },
+      {
+        "name": "The ontology SHALL provide modelling means for the end user",
+        "uid": "_19_0_4_41e01a1_1647266709169_358815_49905",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT4"
+      },
+      {
+        "name": "The ontology SHALL take the activities of the IOF into account",
+        "uid": "_19_0_4_41e01a1_1647267382388_299677_50105",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT6"
+      },
+      {
+        "name": "The system SHALL support a yet to be defined format as ontology definition",
+        "uid": "_19_0_4_41e01a1_1643360951127_437862_42984",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT2"
+      },
+      {
+        "name": "The ontology SHALL be supported by open source / license free tooling",
+        "uid": "_19_0_4_41e01a1_1647267612430_870868_50189",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT7"
+      },
+      {
+        "name": "The ontology SHALL support multiclassification.",
+        "uid": "_19_0_4_41e01a1_1652193445382_159592_50895",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT-124"
+      },
+      {
+        "name": "The ontology SHALL support different levels of quality rules (more relaxed in early development phases, more constraint in latter)",
+        "uid": "_19_0_4_41e01a1_1652193911309_287709_50916",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT-127"
+      },
+      {
+        "name": "The ontology SHALL support detection mechanisms that are based on reasoning / ML and not only hardcoded rules",
+        "uid": "_19_0_4_41e01a1_1652193377439_356650_50888",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT-123"
+      },
+      {
+        "name": "The ontology SHALL assure that the rules are always consistent with the data model. If the rules breaks, it must be easily detectable",
+        "uid": "_19_0_4_41e01a1_1652193314951_588773_50881",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT-122"
+      },
+      {
+        "name": "The ontology SHALL support the modelling of disjoints.",
+        "uid": "_19_0_4_41e01a1_1652193563411_722519_50902",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT-125"
+      },
+      {
+        "name": "The ontology SHALL support core classes",
+        "uid": "_19_0_4_41e01a1_1652192252608_884005_50808",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT-115"
+      },
+      {
+        "name": "The ontology SHALL support mechanisms for ontology evaluation (new rules, changes in ontology)",
+        "uid": "_19_0_4_41e01a1_1652193868600_215976_50909",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT-126"
+      },
+      {
+        "name": "The ontology SHALL support both modelling of open world assumptions as well as closed world assumptions.",
+        "uid": "_19_0_4_41e01a1_1652194307879_820723_50923",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT-128"
+      },
+      {
+        "name": "The ontology SHALL contain all rules that exist on a datum. No rules should exist that are not directly in the model.",
+        "uid": "_19_0_4_41e01a1_1652193104213_501706_50874",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT-121"
+      },
+      {
+        "name": "The ontology SHALL suppot the semantic matching of various models.",
+        "uid": "_19_0_4_41e01a1_1652192412085_128154_50853",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT-118"
+      },
+      {
+        "name": "The ontology SHALL support both core data as well as meta-data.",
+        "uid": "_19_0_4_41e01a1_1652194646253_459712_50930",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "TBD: core data, meta-data, GAIA-X meta-data\n",
+        "id": "R-ONT-129"
+      },
+      {
+        "name": "The ontology SHALL support the modelling from the perspective of the business, w/o a lot of implementation constraints.",
+        "uid": "_19_0_4_41e01a1_1652192369385_105821_50845",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT-117"
+      },
+      {
+        "name": "The ontology SHALL support the modelling of categories / libraries",
+        "uid": "_19_0_4_41e01a1_1652192274853_298611_50815",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT-116"
+      },
+      {
+        "name": "The ontology SHALL support a modular structure (e.g. for versioning)",
+        "uid": "_19_0_4_41e01a1_1652195618040_225726_50944",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT-131"
+      },
+      {
+        "name": "The ontology SHALL support the generation of a database schema for all major data storage approaches (relational, NoSQL, graph, document, RDF, etc.)",
+        "uid": "_19_0_4_41e01a1_1652192200999_48573_50783",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "any form of physical data storage should be generateable\n",
+        "id": "R-ONT-114"
+      },
+      {
+        "name": "The ontology SHALL support specifying rules for the quality of data.",
+        "uid": "_19_0_4_41e01a1_1652192483115_180570_50860",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "E.g.: some data item in the model. When does the data-item have enough maturity/reliability to be reliable for the next steps in the development process.\nQuality criteria should be rules / etc. that are executed automatically.\n\n",
+        "id": "R-ONT-119"
+      },
+      {
+        "name": "The ontology SHALL should be compatible to ORM / ORM shall be convertible to the ontology",
+        "uid": "_19_0_4_41e01a1_1652195586773_657149_50937",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "TBD: Have a look at the constraints of the ORM data models, can they be transferred\n",
+        "id": "R-ONT-130"
+      },
+      {
+        "name": "The ontology SHALL support a mechanism for specifying rules that are converted to the rules mechanisms of the database.",
+        "uid": "_19_0_4_41e01a1_1652192827279_830371_50867",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "R-ONT-120"
+      },
+      {
+        "name": "The Ontology SHALL contain concepts for the calculation of budgets",
+        "uid": "_19_0_4_41e01a1_1648047118020_934267_51370",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "108"
+      },
+      {
+        "name": "The Ontology SHALL contain concepts for the subjects of the budget calculation",
+        "uid": "_19_0_4_41e01a1_1648047207594_963370_51397",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "109"
+      },
+      {
+        "name": "The Ontology SHALL be based on modular concepts",
+        "uid": "_19_0_4_41e01a1_1648047660123_103442_51471",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "111"
+      },
+      {
+        "name": "",
+        "uid": "_19_0_4_41e01a1_1648047677297_777939_51478",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "112"
+      },
+      {
+        "name": "The system SHALL support the evolution of ontologies.",
+        "uid": "_19_0_4_41e01a1_1648047681854_155773_51485",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "113"
+      },
+      {
+        "name": "",
+        "uid": "_19_0_4_41e01a1_1648046578123_747610_50313",
+        "depth": 0,
+        "uml-type": "Extended Requirement",
+        "Text": "",
+        "id": "103"
+      },
+      {
+        "name": "The Ontology SHALL describe the poperity of requirements",
+        "uid": "_19_0_4_41e01a1_1648046794345_250301_50444",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": " (i.e. the attributes that a requirment may have)",
+        "id": "104"
+      },
+      {
+        "name": "The Ontology SHALL be aligned with public standards",
+        "uid": "_19_0_4_41e01a1_1648046950063_168782_51195",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "e.g. ReqIF\n",
+        "id": "105"
+      },
+      {
+        "name": "The Ontology SHALL NOT describe the content / semantics of the requirements",
+        "uid": "_19_0_4_41e01a1_1648046976107_232888_51202",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "106"
+      },
+      {
+        "name": "The system SHALL assume that the requirements are text based",
+        "uid": "_19_0_4_41e01a1_1648047008969_643539_51209",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "107"
+      },
+      {
+        "name": "The framework SHALL generate class definitions for the semantic programming language API from the metamodel",
+        "uid": "_19_0_4_41e01a1_1643489108719_68527_44365",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "83"
+      },
+      {
+        "name": "The framework SHALL keep a mapping between unique identifiers and objects",
+        "uid": "_19_0_4_41e01a1_1643489283391_717275_44373",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "84"
+      },
+      {
+        "name": "The framework SHALL provide a means to load classes from the repository only when they are needed (lazy loading)",
+        "uid": "_19_0_4_41e01a1_1643489461091_993843_44380",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "85"
+      },
+      {
+        "name": "The API shall provide access to the meta-model",
+        "uid": "_19_0_4_41e01a1_1656967537024_236025_51762",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "144"
+      },
+      {
+        "name": "The API shall provide a method to access all the subclasses of a class",
+        "uid": "_19_0_4_41e01a1_1656967735653_339413_51962",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "146"
+      },
+      {
+        "name": "The framework SHALL provide access through a REST API",
+        "uid": "_19_0_4_41e01a1_1658740616984_362521_51555",
+        "depth": 2,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "150"
+      },
+      {
+        "name": "The framework SHALL provide access through a GraphQL API",
+        "uid": "_19_0_4_41e01a1_1658740762125_582015_51664",
+        "depth": 2,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "151"
+      },
+      {
+        "name": "System X",
+        "uid": "_19_0_4_41e01a1_1663762722128_268151_52664",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "The system SHALL do X",
+        "id": "166"
+      },
+      {
+        "name": "An element SHALL be identifiable across database, collection and document",
+        "uid": "_19_0_4_41e01a1_1643495837544_372172_44887",
+        "depth": 0,
+        "uml-type": "Requirement",
+        "Text": "",
+        "id": "86"
+      },
+      {
+        "name": "The system SHALL identify an element both version independent as well as a specific version",
+        "uid": "_19_0_4_41e01a1_1658523815997_425275_51671",
+        "depth": 1,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "149"
+      },
+      {
+        "name": "The system SHALL store the meta-model explicitly within the datamodel",
+        "uid": "_19_0_4_41e01a1_1656967601807_59609_51927",
+        "depth": 1,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "145"
+      },
+      {
+        "name": "The system SHALL store information about the subclasses of a class",
+        "uid": "_19_0_4_41e01a1_1656967779098_135624_51969",
+        "depth": 1,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "147"
+      },
+      {
+        "name": "The system SHALL not grant users direct access to the database API, but through a mechanism that manages access rights.",
+        "uid": "_19_0_4_41e01a1_1659016709758_98903_52592",
+        "depth": 1,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "161"
+      },
+      {
+        "name": "The Frontend SHALL be based on open source frameworks",
+        "uid": "_19_0_4_41e01a1_1655726784977_908275_50955",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "137"
+      },
+      {
+        "name": "The Frontend SHALL run in a Web Browser",
+        "uid": "_19_0_4_41e01a1_1655726784983_159600_50961",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "132"
+      },
+      {
+        "name": "The Frontend SHALL provide a graphical representation of the stored data in Block diagrams",
+        "uid": "_19_0_4_41e01a1_1655726784988_288173_50967",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "142"
+      },
+      {
+        "name": "The Frontend SHALL provide auto-layout for Block diagrams",
+        "uid": "_19_0_4_41e01a1_1655726784993_250893_50973",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "139"
+      },
+      {
+        "name": "The Frontend SHALL provide high level and expanded views",
+        "uid": "_19_0_4_41e01a1_1655726784998_559961_50979",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "138"
+      },
+      {
+        "name": "The Frontend SHALL provide search capabilities",
+        "uid": "_19_0_4_41e01a1_1655726785002_68508_50985",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "135"
+      },
+      {
+        "name": "The Frontend SHALL provide filter capabilities to reduce complexity",
+        "uid": "_19_0_4_41e01a1_1655726785006_741337_50991",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "141"
+      },
+      {
+        "name": "The Frontend SHALL provide a properties view for a selected Block",
+        "uid": "_19_0_4_41e01a1_1655726785011_206519_50997",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "140"
+      },
+      {
+        "name": "The Frontend should provide a Tree View",
+        "uid": "_19_0_4_41e01a1_1655726785015_787679_51003",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "133"
+      },
+      {
+        "name": "The Frontend should be able to join edges",
+        "uid": "_19_0_4_41e01a1_1655726785019_98231_51009",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "134"
+      },
+      {
+        "name": "The Frontend SHALL provide authoring capabilities",
+        "uid": "_19_0_4_41e01a1_1655726785022_794637_51015",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "136"
+      },
+      {
+        "name": "The system SHALL capture the source of the requirement.",
+        "uid": "_19_0_4_41e01a1_1655734340908_79825_51190",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "So that we can track, who brought the requirement into the project and who participated in a requirement\n",
+        "id": "143"
+      },
+      {
+        "name": "The system SHALL have an importer for product descriptions",
+        "uid": "_19_0_4_41e01a1_1660893751682_709782_52248",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "163"
+      },
+      {
+        "name": "The system SHALL have an importer for the Airbus defined product descriptions format",
+        "uid": "_19_0_4_41e01a1_1660893934575_761424_52378",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "164"
+      },
+      {
+        "name": "The system MAY have an importer for an ESA defined product description format.",
+        "uid": "_19_0_4_41e01a1_1660893956521_226920_52387",
+        "depth": 0,
+        "uml-type": "CooperantsRequirement",
+        "Text": "",
+        "id": "165"
+      }
+    ],
+    "RelationShip": [
+      {
+        "label": "DeriveReqt",
+        "id": "_19_0_4_41e01a1_1643361974144_19507_43555",
+        "depth":2,
+        "source": [
+          "20"
+        ],
+        "target": [
+          "17"        ]
+      },
+      {
+        "label": "DeriveReqt",
+        "depth":2,
+        "id": "_19_0_4_41e01a1_1643362038639_596442_43616",
+        "source": [
+          "21"
+        ],
+        "target": [
+          "17"        ]
+      },
+      {
+        "label": "DeriveReqt",
+        "depth":2,
+        "id": "_19_0_4_41e01a1_1643361977071_877711_43568",
+        "source": [
+          "19"
+        ],
+        "target": [
+          "17"        ]
+      },
+      {
+        "label": "DeriveReqt",
+        "depth":2,
+        "id": "_19_0_4_41e01a1_1643361971604_265961_43540",
+        "source": [
+          "18"
+        ],
+        "target": [
+          "17"        ]
+      },
+      {
+        "label": "DeriveReqt",
+        "depth":2,
+        "id": "_19_0_4_41e01a1_1658826657248_738770_52874",
+        "source": [
+          "156"
+        ],
+        "target": [
+          "155"        ]
+      },
+      {
+        "label": "Satisfy",
+        "depth":2,
+        "id": "_19_0_4_41e01a1_1658846456280_999610_52261",
+        "source": [
+          "158"
+        ],
+        "target": [
+          "159"        ]
+      },
+      {
+        "label": "DeriveReqt",
+        "depth":2,
+        "id": "_19_0_4_41e01a1_1665841294674_273239_52667",
+        "source": [
+          "172"
+        ],
+        "target": [
+          "41"        ]
+      },
+      {
+        "label": "DeriveReqt",
+        "depth":2,
+        "id": "_19_0_4_41e01a1_1665841306519_486146_52673",
+        "source": [
+          "172"      ],
+        "target": [
+          "41"        ]
+      },
+      {
+        "label": "Satisfy",
+        "depth":2,
+        "id": "_19_0_4_41e01a1_1658825388679_964551_52128",
+        "source": [
+          "118"
+        ],
+        "target": [
+          "153"       
+         ]
+      },
+      {
+        "label": "Satisfy",
+        "id": "_19_0_4_41e01a1_1658833631412_648119_52377",
+        "depth":2,
+        "source": [
+          "157"
+        ],
+        "target": [
+          "153"        ]
+      },
+      {
+        "label": "Refine",
+        "depth":2,
+        "id": "_19_0_4_41e01a1_1665645970483_637583_52752",
+        "source": [
+          "168"
+        ],
+        "target": [
+          "167"        ]
+      },
+      {
+        "label": "Refine",
+        "depth":2,
+        "id": "_19_0_4_41e01a1_1665646000270_88620_52756",
+        "source": [
+         "168"
+        ],
+        "target": [
+          "167"        ]
+      },
+      {
+        "label": "Satisfy",
+        "depth":3,
+        "id": "_19_0_4_41e01a1_1658825434845_281198_52132",
+        "source": [
+          "150"
+        ],
+        "target": [
+          "118"
+        ]
+      },
+      {
+        "label": "Satisfy",
+        "depth":3,
+        "id": "_19_0_4_41e01a1_1658825434847_613139_52134",
+        "source": [
+          "151"
+        ],
+        "target": [
+          "118"
+        ]
+      },
+      {
+        "label": "Satisfy",
+        "depth":2,
+        "id": "_19_0_4_41e01a1_1658524128745_392002_51696",
+        "source": [
+          "149"
+        ],
+        "target": [
+          "148"        ]
+      },
+      {
+        "label": "Refine",
+        "id": "_19_0_4_41e01a1_1656967661641_365706_51935",
+        "depth":2,
+        "source": [
+          "145"
+        ],
+        "target": [
+          "144"        ]
+      },
+      {
+        "label": "Refine",
+        "depth":2,
+        "id": "_19_0_4_41e01a1_1656967829554_778009_51993",
+        "source": [
+          "147"
+        ],
+        "target": [
+          "146"        ]
+      }
+    ]
+  }
+
+ }

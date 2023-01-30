@@ -1,0 +1,9 @@
+﻿,"1.1 Bauteilart [01_Product_System_Model::01_RequirementModel::02_Requirements::01_Bauteilspektrum]","1.2 Bauteilmaterial [01_Product_System_Model::01_RequirementModel::02_Requirements::01_Bauteilspektrum]","1.3 Bauteilgewicht [01_Product_System_Model::01_RequirementModel::02_Requirements::01_Bauteilspektrum]","1.4 Bauteilgröße [01_Product_System_Model::01_RequirementModel::02_Requirements::01_Bauteilspektrum]","1.5 Sperrzonen [01_Product_System_Model::01_RequirementModel::02_Requirements::01_Bauteilspektrum]","1.6 Bauteilgewicht [01_Product_System_Model::01_RequirementModel::02_Requirements::01_Bauteilspektrum]"
+"[01_Product_System_Model::02_FunctionalModel::Functions_Core]",,,,,,
+"Auflagefläche_säubern [01_Product_System_Model::02_FunctionalModel::Functions_Core]","->",,,,,
+"Bauteil_aufnehmen [01_Product_System_Model::02_FunctionalModel::Functions_Core]",,"->","->","->",,"->"
+"Höhenverstellung_durchführen [01_Product_System_Model::02_FunctionalModel::Functions_Core]",,,,,,
+"Rotation_übertragen [01_Product_System_Model::02_FunctionalModel::Functions_Core]",,,,"->",,
+"Sicherheit_gewährleisten [01_Product_System_Model::02_FunctionalModel::Functions_Core]",,,,,"->",
+"Stabilität_sicherstellen [01_Product_System_Model::02_FunctionalModel::Functions_Core]",,,,,,
+"Unwucht_messen [01_Product_System_Model::02_FunctionalModel::Functions_Core]",,,,,,

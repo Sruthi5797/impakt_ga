@@ -1,0 +1,22 @@
+functionID;functionName
+F1;Rotor_auswuchten
+F1.1;Rotation_uebertragen
+F1.1.1;Unwucht (Fliehkraft) uebertragen
+F1.1.1.1;Unwucht (Fliehkraft) leiten
+F1.1.1.2;Fliehkraftrichtung aendern
+F1.1.2;Drehmoment uebertragen
+F1.1.2.1;Drehmoment wandeln
+F1.1.4;Massentraegheitsmoment uebertragen
+F1.1.5;Schwingkraefte uebertragen
+F1.1.6;Reibkraft_uebertragen
+F1.2;Auflageflaeche_saeubern
+F1.3;Bauteil_aufnehmen
+F1.3.1;Nennmoment am Pruefkoerper aufnehmen
+F1.3.2;Unwuchtmasse aufnehmen
+F1.3.2.1;Gewichtskraft Rotor leiten 
+F1.4;Bauteil_fixieren
+F1.5;Hoehenverstellung_durchfuehren
+F1.6;Lagerung_fixieren
+F1.7;Rotor antreiben
+F1.7.1;Antriebsleistung aufbringen
+F1.7.2;Auswuchtdrehzahl aufbringen

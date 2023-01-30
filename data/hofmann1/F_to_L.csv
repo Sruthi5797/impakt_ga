@@ -1,0 +1,10 @@
+﻿,"[01_Product_System_Model::02_FunctionalModel::Functions_Core]","Auflagefläche_säubern [01_Product_System_Model::02_FunctionalModel::Functions_Core]","Bauteil_aufnehmen [01_Product_System_Model::02_FunctionalModel::Functions_Core]","Höhenverstellung_durchführen [01_Product_System_Model::02_FunctionalModel::Functions_Core]","Rotation_übertragen [01_Product_System_Model::02_FunctionalModel::Functions_Core]","Sicherheit_gewährleisten [01_Product_System_Model::02_FunctionalModel::Functions_Core]","Stabilität_sicherstellen [01_Product_System_Model::02_FunctionalModel::Functions_Core]","Unwucht_messen [01_Product_System_Model::02_FunctionalModel::Functions_Core]"
+"Auswuchtmaschine_Kern [01_Product_System_Model::03_SolutionModel::PrincipleSolutionPackage::spezifische Prinziplösungen::PrincipleSolutions_Kern]",,,,,,,,
+"Axialgelenklager [01_Product_System_Model::03_SolutionModel::PrincipleSolutionPackage::spezifische Prinziplösungen::PrincipleSolutions_Kern]",,,"->",,,,,"->"
+"Klappschutz [01_Product_System_Model::03_SolutionModel::PrincipleSolutionPackage::spezifische Prinziplösungen::PrincipleSolutions_Kern]",,,,,,"->",,"->"
+"Lagereinsatz [01_Product_System_Model::03_SolutionModel::PrincipleSolutionPackage::spezifische Prinziplösungen::PrincipleSolutions_Kern]",,"->","->",,"->",,,"->"
+"Lagerständer [01_Product_System_Model::03_SolutionModel::PrincipleSolutionPackage::spezifische Prinziplösungen::PrincipleSolutions_Kern]",,,,"->","->",,,"->"
+"Maschinentisch [01_Product_System_Model::03_SolutionModel::PrincipleSolutionPackage::spezifische Prinziplösungen::PrincipleSolutions_Kern]",,,,,,,"->","->"
+"Nullsonde [01_Product_System_Model::03_SolutionModel::PrincipleSolutionPackage::spezifische Prinziplösungen::PrincipleSolutions_Kern]",,,,,,,,"->"
+"Schutzeinhausung [01_Product_System_Model::03_SolutionModel::PrincipleSolutionPackage::spezifische Prinziplösungen::PrincipleSolutions_Kern]",,,,,,"->",,"->"
+"Sicherheitsbügel [01_Product_System_Model::03_SolutionModel::PrincipleSolutionPackage::spezifische Prinziplösungen::PrincipleSolutions_Kern]",,,,,,"->",,"->"
