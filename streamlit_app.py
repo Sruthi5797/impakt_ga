@@ -20,21 +20,25 @@ def main_page():
 
 def import_data():
     st.sidebar.markdown("# Import data")
-    rp_data = ['data/cooperants_v1.json','data/impakt_rl_v1.json']
+    rp_data = ['data/cooperants_v1.json','data/impakt_rl_v1.json', 'data/hoffman_v1_rflp.csv' ]
     option = st.sidebar.selectbox('Choose your dataset',("cooperants","impaktv1","impaktv2"))
 
     if option == "cooperants":
-        co_graph,co_encode = dataPreprocessing(rp_data[0])
+        co_graph,co_encode = dataPreprocessing(rp_data[0], 'json')
         co_result = graph_description(co_graph, co_encode)
         st.write(co_result)
     
     elif option == "impaktv1":
-        imp_graph, imp_encode = dataPreprocessing(rp_data[1])
+        imp_graph, imp_encode = dataPreprocessing(rp_data[1], 'json')
         imp_result = graph_description(imp_graph, imp_encode)
         st.write(imp_result)
     
-    else:
-        st.write("To be updated")
+    elif option == "impaktv2":
+        imp_graph, imp_encode = dataPreprocessing(rp_data[2], 'csv')
+        imp_result = graph_description(imp_graph, imp_encode)
+        st.write(imp_result)
+
+        
 
 def dimensions():
     option = st.selectbox('Choose your category',("default","changed_requirement","impacted_elements","requirement_analysis",

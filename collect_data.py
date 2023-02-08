@@ -4,16 +4,27 @@ import pandas as pd
 from pandas.io.json import json_normalize
 import networkx as nx
 from sklearn.preprocessing import OrdinalEncoder
+import numpy as np
 
-def dataPreprocessing(input):
-    with open(input, 'r') as f:
-        output = json.load(f)
-        processed_output = [output[k]['RelationShip'] for k in output]
-        df_encode = pd.DataFrame.from_records(processed_output[0])
+def dataPreprocessing(input, type):
+    if type == "json":
+        with open(input, 'r') as f:
+            output = json.load(f)
+            processed_output = [output[k]['RelationShip'] for k in output]
+            df_encode = pd.DataFrame.from_records(processed_output[0])
+            df_encode['source'] = df_encode['source'].map(str)
+            df_encode['target'] = df_encode['target'].map(str)
+            G = nx.from_pandas_edgelist(df_encode, "source", "target")
+            return G, df_encode
+    
+    elif type == "csv":
+        df_encode_ = pd.read_csv(input, keep_default_na=False)
+        df_encode = df_encode_.replace(np.nan, 0)
         df_encode['source'] = df_encode['source'].map(str)
         df_encode['target'] = df_encode['target'].map(str)
         G = nx.from_pandas_edgelist(df_encode, "source", "target")
         return G, df_encode
+
 
 def graph_description(df_graph, df_encode):
     density = nx.density(df_graph)
