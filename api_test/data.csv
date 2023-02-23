@@ -1,0 +1,3 @@
+,instanceName,typeId,instanceId,configInstances
+0,rquirement1,1,10,"[{'configKey': 'author', 'configValue': 'Till'}]"
+1,someInstance2,2,20,[]

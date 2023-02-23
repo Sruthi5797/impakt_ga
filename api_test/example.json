@@ -1,0 +1,100 @@
+{
+    "version": "1.0.0",
+    "nodeTypes": [
+        {
+            "name": "someName",
+            "typeId": "1",
+            "description": "node type 1",
+            "config": [
+                {
+                    "name": "param1",
+                    "description": "some param1",
+                    "isRequired": "true"
+                },
+                {
+                    "name": "Author",
+                    "description": "Who wrote this req",
+                    "isRequired": "false"
+                }
+            ]
+        },
+        {
+            "name": "someOtherName",
+            "typeId": "2",
+            "description": "node type 2",
+            "config": [
+                {
+                    "name": "param2",
+                    "description": "some param2",
+                    "isRequired": "true"
+                },
+                {
+                    "name": "Author",
+                    "description": "Who wrote this req",
+                    "isRequired": "false"
+                }
+            ]
+        }
+    ],
+    "edgeTypes": [
+        {
+            "name": "edgeType1",
+            "typeId": "cost_edge",
+            "description": "edge type 1",
+            "direction": "IN",
+            "config": [
+                {
+                    "configKey": "cost",
+                    "description": "cost of dependency",
+                    "isRequired": "false"
+                }
+            ]
+        },
+        {
+            "name": "edgeType2",
+            "typeId": "complexity_edge",
+            "description": "edge type 2",
+            "direction": "IN",
+            "config": [
+                {
+                    "configKey": "complexity",
+                    "description": "complexity of dependency",
+                    "isRequired": "false"
+                }
+            ]
+        }
+    ],
+    "nodeInstances": [
+        {
+            "instanceName": "rquirement1",
+            "typeId": "1",
+            "instanceId": "10",
+            "configInstances": [
+                {
+                    "configKey": "author",
+                    "configValue": "Till"
+                }
+            ]
+        },
+        {
+            "instanceName": "someInstance2",
+            "typeId": "2",
+            "instanceId": "20",
+            "configInstances": []
+        }
+    ],
+    "edgeInstances": [
+        {
+            "typeId": "cost_edge",
+            "instanceId": "100",
+            "sourceId": "10",
+            "targetId": "20",
+            "configInstances": [
+                {
+                    "configKey": "cost",
+                    "configValue": "10"
+                }
+            ]
+        }
+    ]
+}

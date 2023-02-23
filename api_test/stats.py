@@ -8,8 +8,15 @@ from os import getppid
 
 def dataPreprocessing(output):
     #output = json.load(f)
-    processed_output = [output[k]['RelationShip'] for k in output]
-    df_encode = pd.DataFrame.from_records(processed_output[0])
+    #processed_output = [output[k]['RelationShip'] for k in output]
+    #df_encode = pd.DataFrame.from_records(processed_output[0])
+
+    #preparing for the new version
+    edge_instances = list(output.values())[4]
+    edge_instances_df = pd.json_normalize(edge_instances)
+    edge_instances_df["source"] = edge_instances_df["sourceId"]
+    edge_instances_df["target"] = edge_instances_df["targetId"]
+    df_encode = edge_instances_df
     df_encode['source'] = df_encode['source'].map(str)
     df_encode['target'] = df_encode['target'].map(str)
     df_graph = nx.from_pandas_edgelist(df_encode, "source", "target")

@@ -5,6 +5,7 @@ import pandas as pd
 from networkx.algorithms import community
 def cost_analysis():
     choosen_graph, _ = get_dataset()
+    choosen_graph = choosen_graph.to_directed()
     ca = st.radio("cost analysis",("cost effort","cost allocation","cost add-on analysis"))
     if ca == "cost effort":
         ce = st.radio("ce",("How high are the costs","fit with offered price","Profitability of the system"))
